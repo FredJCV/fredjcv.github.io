@@ -1,0 +1,116 @@
+h3,
+p {
+    color: #111111;
+}
+
+h5 {
+    color: white;
+    text-shadow: 0 1px 4px #111111;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #111111;
+}
+
+button:focus {
+    outline: none;
+}
+
+.jumbotron,
+.list-group-item {
+    background-image: linear-gradient(90deg, rgba(3, 150, 13, 0.384), white);
+}
+
+h1 {
+    color: #111111;
+    
+}
+
+.lead {
+    color: #111111;
+    font-weight: 600;
+}
+
+.carousel-inner {
+    max-height: 445px;
+    height: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.carousel-caption {
+    top: -20px;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+}
+
+.carousel-control-next {
+    background-image: linear-gradient(-90deg, #11111183, #11111100);
+}
+
+.carousel-control-prev {
+    background-image: linear-gradient(90deg, #11111183, #11111100);
+}
+
+.list-group-item:hover {
+    background-color: #05E313;
+    font-size: 20px;
+    transform: translate(10px); 
+}
+
+.list-group-item,
+.list-group-item:hover,
+.card,
+.card:hover,
+svg {
+    transition: 1s;
+}
+
+.card:hover {
+    border-bottom: 3px inset #05E313;
+    transform: scale(1.05);
+}
+
+svg {
+    height: 40px;
+    width: 40px;
+}
+
+svg:hover {
+    animation: bounce 1.5s;
+    cursor: pointer;
+}
+
+.push-right {
+    animation: pushRight 1.5s;
+}
+
+.push-left {
+    animation: pushLeft 1.5s;
+}
+
+@keyframes bounce {
+    0% { transform: scale(1) }
+    50% { transform: scale(0.8) }
+    60% { transform: scale(1.4) }
+    100% { transform: scale(1) }
+}
+
+@keyframes pushRight {
+    50% { transform: translateX(0) }
+    60% { transform: translateX(10px) }
+    100% { transform: translateX(0) }
+}
+
+@keyframes pushLeft {
+    50% { transform: translateX(0) }
+    60% { transform: translateX(-10px) }
+    100% { transform: translateX(0) }
+}
