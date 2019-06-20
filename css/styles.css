@@ -73,9 +73,19 @@ svg {
     transition: 1s;
 }
 
+.fade-card {
+    opacity: .8;
+    transform: scale(0.95);
+}
+
+.shown {
+    opacity: 1;
+    transform: scale(1);
+}
+
 .card:hover {
     border-bottom: 3px inset #05E313;
-    transform: scale(1.05);
+    transform: scale(1.03);
 }
 
 svg {
